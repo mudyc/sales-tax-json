@@ -1,0 +1,16 @@
+
+IDEA, combine whole worl of taxes into one single json object.
+Application: Stripe sends country and zip code. Tax can be added for digital products.
+
+
+Countries, 
+USA taxes, http://www.sale-tax.com/
+  zip2fips->state(tax),county(tax)
+  state rates
+  city, special is missing...
+Canada, canada.json , province is got with postal code first letter
+EU taxes, jsonvat.com
+Other countries taxes, wikipedia, https://en.wikipedia.org/wiki/Value-added_tax
+
+A script which slowly downloads data and updates the data accordingly. The script can be paused at anytime.
+
